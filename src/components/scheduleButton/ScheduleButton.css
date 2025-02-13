@@ -1,0 +1,12 @@
+.schedule_button{
+    @apply flex  items-center gap-[20px] mt-5 z-50 
+}
+.schedule_button .icons{
+    @apply flex  items-center justify-center w-[30px] h-[30px] lg:w-[50px] text-[20px] lg:h-[50px] md:w-[50px] md:h-[50px] bg-[rgba(196,196,196,0.10)] lg:text-[30px] text-brandColors rounded-lg
+}
+.sch_text h2{
+    @apply text-[14px] lg:text-[24px] md:text-[20px] font-semibold font-Montserrat text-[rgba(255,255,255,0.50)]
+}
+.sch_text p{
+    @apply text-[14px] lg:text-[24px] md:text-[20px] font-bold font-Montserrat text-[#fff] mb-[20px]
+}

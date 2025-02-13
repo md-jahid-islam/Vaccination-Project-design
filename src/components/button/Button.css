@@ -1,0 +1,7 @@
+.banner_but{
+    @apply w-[200px] h-[69px]  border-[2px] border-brandColors rounded-[20px] flex justify-center items-center
+    
+}
+.banner_but:hover{
+    @apply bg-brandColors
+}

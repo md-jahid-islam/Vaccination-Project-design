@@ -1,0 +1,33 @@
+.result{
+    @apply bg-[url('images/bannerBg.png')] bg-no-repeat bg-cover bg-center py-[62px] 
+}
+.result_head {
+    @apply bg-[rgba(196,196,196,0.05)] rounded-t-[20px] 
+}
+.result_head h2{
+    @apply text-[10px] font-bold font-Montserrat text-[#fff] py-[14px] px-[30px] md:text-xl md:py-[18px] md:px-[98px]
+     lg:text-[24px]  lg:py-[36px] lg:pl-[93px] 
+}
+.result_input{
+    @apply bg-[rgba(196,196,196,0.11)] py-[31px] rounded-b-[20px]
+}
+.input_data{
+    @apply  lg:flex lg:gap-5 lg:py-[35px] lg:px-[93px]
+}
+.input_data input{
+    @apply w-[280px] h-[50px] lg:w-[450px] lg:h-[69px] border-[3px] border-[rgba(196,196,196,0.15)] rounded-[20px] bg-transparent 
+    focus:border-brandColors outline-none
+}
+.input_data input::placeholder{
+    @apply text-[24px] font-medium font-Montserrat text-[rgba(255,255,255,0.50)] focus:text-[#fff] pl-[25px]
+}
+.result_button{
+    @apply w-[97px] h-12 lg:py-[20px] lg:px-[25px] border-[3px] border-[#17C2EC] rounded-[20px] flex justify-center items-center
+    lg:text-[24px] text-[14px] font-bold font-Montserrat text-brandColors
+}
+.result_text {
+    @apply w-[1113px] bg-[rgba(196,196,196,0.05)] rounded-[20px] ml-[93px] 
+}
+.result_text p{
+    @apply  py-[20px] px-[174px] text-[24px] font-bold font-Montserrat text-brandColors
+}

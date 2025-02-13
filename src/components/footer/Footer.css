@@ -1,0 +1,44 @@
+.footer{
+    @apply bg-[url('images/bannerBg.png')]  bg-no-repeat bg-cover bg-center
+}
+.menu_row{
+    @apply  pb-[50px]
+}
+.menu_row{
+    @apply flex justify-between
+}
+.menu ul{
+    @apply flex gap-[25px]
+}
+.menu ul li a{
+    @apply text-2xl font-medium font-Montserrat text-[rgba(255,255,255,0.50)]
+}
+.menu ul li a:hover{
+    @apply text-[#fff]
+}
+.footer_card{
+    @apply w-[1031px] h-[400px] bg-brandColors m-auto rounded-[50px]
+     translate-y-[-178px]
+}
+.footer_text{
+    @apply flex justify-center items-center flex-col pt-[70px]
+}
+.footer_text h1{
+    @apply text-[48px] font-bold font-Montserrat text-[#fff]
+}
+.footer_text p{
+    @apply text-[24px] font-medium font-Montserrat text-[#fff]
+}
+.footer_input{
+    @apply flex
+}
+.footer_input input{
+    @apply w-[450px] h-[75px] bg-[#fff] mt-[40px] rounded-l-[30px] pl-[40px]
+}
+.footer_input button{
+    @apply w-[70px] h-[75px] bg-[#000] mt-[40px]  rounded-r-[30px] text-[#fff] flex justify-center items-center
+    text-[40px]
+}
+.social_button{
+    @apply text-3xl text-[#fff] flex gap-1 items-center
+}

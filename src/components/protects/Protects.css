@@ -1,0 +1,48 @@
+.protects{
+    @apply bg-[url('images/bannerBg.png')] bg-no-repeat bg-cover bg-center py-[62px] 
+}
+.protects_head {
+    @apply flex flex-wrap justify-between gap-4
+}
+.protects_head h2{
+    @apply w-[265px] text-[24px] font-bold font-Montserrat text-[#fff] md:w-[384px] md:text-[36px] lg:w-[503px] lg:text-[48px]
+}
+.protects_head p{
+    @apply w-[300px] text-[14px] font-normal font-Montserrat text-[rgba(255,255,255,0.49)] md:w-[536px]
+    md:text-xl  lg:w-[536px] lg:text-[20px]
+}
+.protects_card{
+    @apply flex flex-wrap gap-[3px] lg:justify-between
+}
+.big_card{
+    @apply w-[276px] h-[280px]  bg-[rgba(196,196,196,0.19)] rounded-[49px] rounded-tr-[100px] mt-[40px] md:px-5
+    md:w-[449px] md:h-[498px] md:rounded-tr-[149px] relative
+}
+.card_icons .icons{
+    @apply w-[50px] h-[50px] bg-[rgba(196,196,196,0.11)] mt-7 ml-7 rounded-2xl absolute text-brandColors 
+    md:w-[100px] md:h-[100px] md:rounded-3xl flex justify-center items-center
+}
+.protects_text h2{
+    @apply w-[172px] text-[14px] font-bold font-Montserrat text-brandColors pt-20 pl-[20px] md:pt-[150px]
+      md:w-[288px] md:text-2xl
+}
+
+.protects_text p{
+    @apply w-[235px] text-[12px] font-medium font-Montserrat text-[#fff] pl-[20px] pt-5 md:w-[352px] md:text-[18px]
+}
+.more_button {
+    @apply flex items-center gap-[10px] pl-[20px] mt-[25px] text-[12px] font-bold font-Montserrat text-brandColors md:text-[18px] md:mt-[40px]
+}
+.card{
+    @apply w-[349px] h-[349px] border-[2px] border-[rgba(255,255,255,0.5)] rounded-[49px] mt-[189px]
+}
+.pro_icon{
+    @apply mt-[40px] ml-[40px] w-[70px] h-[70px] border-[2px] border-[rgba(255,255,255,0.5)] rounded-[20px]
+    flex justify-center items-center 
+}
+.icon{
+    @apply text-3xl text-[#fff] 
+}
+.card_text{
+    @apply w-[256px] text-2xl font-bold font-Montserrat text-[#fff] pl-[39px] pt-[39px] mb-[52px]
+}

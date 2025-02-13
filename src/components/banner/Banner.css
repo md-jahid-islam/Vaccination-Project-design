@@ -1,0 +1,35 @@
+.banner{
+    @apply bg-[url('images/bannerBg.png')] pt-[210px] bg-no-repeat bg-cover bg-center
+}
+.banner_col{
+    @apply flex flex-wrap lg:flex lg:justify-between 
+}
+.banner_head h1{
+     @apply text-[12px] font-bold font-Montserrat text-brandColors mb-[20px] md:text-[18px] lg:text-[24px] 
+}
+.banner_head h2{
+    @apply w-[276px] text-[24px] font-extrabold font-Montserrat text-[#fff] md:text-[36px] md:w-[414px] lg:text-[48px] lg:w-[551px]
+}
+.banner_head p{
+    @apply w-[243px] text-[14px] font-bold font-Montserrat text-[rgba(255,255,255,0.70)] mt-5 mb-10 md:text-[20px] md:w-[502px] 
+    lg:text-[24px] lg:w-[550px]
+}
+.banner_button{
+    @apply flex gap-5 text-2xl font-bold font-Montserrat text-[#fff]
+}
+.banner_img img{
+    @apply w-[306px] h-[309px] mt-[50px] mb-[43px] md:w-[622px] md:h-[617px] md:mt-[55px] md:mb-[39px] lg:mt-[2px]
+}
+.Schedule_head{
+    @apply flex items-center gap-2 md:gap-5
+}
+.Schedule_head .clo{
+    @apply w-[30px] h-[30px] bg-[rgba(196,196,196,0.10)] text-[20px] text-brandColors font-bold rounded-lg
+    md:w-[50px] md:h-[50px] md:text-[30px]
+}
+.Schedule_head h2{
+    @apply text-[14px] font-bold font-Montserrat text-[#fff] md:text-[24px]
+}
+.Schedule_info{
+    @apply flex flex-wrap gap-[14px] lg:gap-[50px] md:gap-[50px] items-center bg-[rgba(196,196,196,0.05)] px-[39px] py-[46px] rounded-[20px] mt-[20px]
+}

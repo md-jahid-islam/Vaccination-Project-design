@@ -1,0 +1,9 @@
+.ad{
+    @apply bg-[rgba(255,255,255,0.50)] lg:h-[150px]
+}
+.ad_img{
+    @apply flex justify-between md:gap-6 px-[24px] py-[11px] md:px-[50px] md:py-[23px] lg:px-[71px] lg:py-[45px] 
+}
+.ad_img img{
+    @apply lg:w-[288px] md:w-[148px] w-[72px] 
+}

@@ -1,0 +1,19 @@
+.FeedbackCard{
+    @apply w-[305px]  bg-[rgba(196,196,196,0.5)] rounded-[14px] md:w-[400px]  md:rounded-[20px]
+
+}
+.FeedbackCard_col{
+    @apply flex gap-5 pl-[30px] pt-[30px]
+}
+.FeedbackCard_img img{
+    @apply w-[53px]
+}
+.FeedbackCard_head h1{
+    @apply text-[14px] font-bold font-Montserrat text-[#000] md:text-[20px] lg:text-2xl
+}
+.FeedbackCard_head h2{
+    @apply text-[10px] font-bold font-Montserrat text-[rgba(0,0,0,0.5)] md:text-[14px] 
+}
+.FeedbackCard_text p{
+    @apply w-[253px] text-[12px] md:w-[333px] md:text-[18px] font-medium font-Montserrat text-[rgba(0,0,0,0.5)] px-[34px] py-10
+}
